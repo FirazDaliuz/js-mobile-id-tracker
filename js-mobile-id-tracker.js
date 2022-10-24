@@ -22,6 +22,8 @@ document.addEventListener("touchmove", (e) => {
       //this is where you should call your function here
       dostuff(endTarget.id);
     }
+    //enable this if you want the function to return id or any properties
+    //return endTarget.id
   }
 });
 //this is for when user lift their finger after swiping element
